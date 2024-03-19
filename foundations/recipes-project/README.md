@@ -1,0 +1,2 @@
+# recipes-project
+This project uses basic html and css. The website links to different pages which are in the pages folder these are three recipes. The layout of the recipes pages shows some basic knowledge and use of flexbox. From this I learnt how a webiste can be structured with the use of flexbox and also the use of a tags to link to different parts of a website.
