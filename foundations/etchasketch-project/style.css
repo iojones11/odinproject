@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main: rgb(255, 255, 255);
+    --light: rgb(204, 204, 204);
+    --lighter: rgb(153, 153, 153);
+    --dark: rgb(102, 102, 102);
+    --darker: rgb(51, 51, 51);
+    --darkest: rgb(0, 0, 0);
+}
+
+.body {
+    height: 100vh;
+}
+
+.header {
+    font-size: 3rem;
+}
+
+.userentry {
+    width: 550px;
+    font-size: 2rem;
+}
+
+button {
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid black;
+    margin: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.pix {
+    width: 5px;
+    height: 5px;
+    background: var(--main);
+}
